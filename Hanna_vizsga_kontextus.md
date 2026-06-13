@@ -5,7 +5,7 @@
 > - `graph64_2024/` — tanár library + vizsgabevihető framework + Hanna korábbi próbálkozásai
 > - `példafeladatok/` — minta BevProg2 géptermi ZH leírások
 >
-> **Státusz:** A library azonosítva (`graph64_2024`). A **bevihető MVC architektúra és absztrakt minták (A–L)** leírva lent. A **konkrét vizsgafeladat szövege** még **nem ismert**.
+> **Státusz:** A library azonosítva (`graph64_2024`). Az `include/` + `src/` mappa **egyesített MVC keretre** lett rendezve (`model` / `view` / `controller` / `app`). A **konkrét vizsgafeladat szövege** még **nem ismert**.
 
 ---
 
@@ -26,7 +26,25 @@ Hanna nem tud egyedül felkészülni a vizsgára. A feladat lényegét nehezen t
 | **MVC** | Elvárás: adat ↔ megjelenítés ↔ interakció szétválasztása |
 | **Tanár kritikája** | Hanna beadott fájljai **túl gyakorlófeladat-specifikusak**, nem elég **általánosak** |
 | **Hanna állapota** | Nem tudta elvégezni a vizsgát; a `regiek/` mappában vannak sikertelen próbálkozásai |
-| **Jelenlegi sablon** | `include/` + `src/` — **F_sync minta** (általános kétlistás keret), nem Hanna saját kódja |
+| **Jelenlegi sablon** | `include/` + `src/` — **egyesített MVC widget keret** (`config.hpp` + model/view/controller/app) |
+
+---
+
+## Hanna pontosítása (2026.06.)
+
+> Az `include` és `src` mappában lévő fájlokat (kivéve `graphics.hpp`, mert az a grafikus lib része) **úgy kell átalakítani**, hogy egy **újrafelhasználható MVC alapú widget-keretrendszert** alkossanak. Vizsgán **minimális módosításokkal** lehessen gyorsan működő alkalmazást építeni (két listás készletkezelés, kategória- vagy időpont alapú adatkezelés stb.). **Csak e két mappában** kell dolgozni.
+
+**Megvalósítás:** nincs külön `sync_*` / `icecream_*` / `rec_gep_*` / `window.*` — helyette egy bevihető csomag:
+
+| Fájl | Szerep |
+|------|--------|
+| `config.hpp` | UI panel kapcsolók (`UI_TWO_LIST`, `UI_INVENTORY`, `UI_MACHINE`, …) + demo seed |
+| `model.hpp` / `model.cpp` | `Item` + összes üzleti szabály |
+| `view.hpp` / `view.cpp` | Widgetek + `refresh_*` |
+| `controller.hpp` / `controller.cpp` | `on_*` eseménykezelők |
+| `app.hpp` / `app.cpp` + `main.cpp` | `Lib` leszármazott, belépési pont |
+
+Részletek: `graph64_2024/README-FRAMEWORK.md`. **Hanna implementációs útmutató:** `graph64_2024/IMPLEMENTATION.md`.
 
 ---
 
@@ -35,10 +53,12 @@ Hanna nem tud egyedül felkészülni a vizsgára. A feladat lényegét nehezen t
 | Mappa / fájl | Szerep |
 |--------------|--------|
 | `graphicslib/` | Tanár **graphics.hpp** — alap rajzolás, események (`gout`, `gin`, SDL2) |
-| `include/` + `src/` | **Bevihető framework**: `Lib`, `Widget`, `Button`, `Text`, `SetValue`, `List`, `Dropdown`, `Checkbox`, stb. |
-| `include/window.hpp` + `src/window.cpp` | **F_sync minta** — két listás, feladat-független sablon |
-| `include/config.hpp` | Testreszabási konstansok (`VALUE_DIMENSION`, duplikált név tiltás, áthelyezés mód) |
-| `include/model.hpp` | Általános `Item` struktúra sablon (alternatív adatmodell) |
+| `include/` + `src/` | **Bevihető MVC keret**: widgetek + `model` / `view` / `controller` / `app` |
+| `include/config.hpp` | **Vizsgán fő testreszabási pont** — mezők, UI panelek, demo seed |
+| `include/model.hpp` + `src/model.cpp` | `Item` + CRUD, két lista, készlet, gép, kategória, idő |
+| `include/view.hpp` + `src/view.cpp` | Megjelenítés, `refresh_*`, `row_text()` |
+| `include/controller.hpp` + `src/controller.cpp` | Eseménykezelők |
+| `include/app.hpp` + `src/app.cpp` | Alkalmazás összerakás |
 | `include/record.hpp` | Polimorfizmus sablon (`Record`, `Collection`) — összetett feladatokhoz |
 | `include/util.hpp` | Segédfüggvények, pl. sakktábla/huszár (`chess_is_knight_move`) |
 | `regiek/` | Hanna **korábbi, sikertelen** próbálkozásai (régi API, feladat-specifikus osztályok) |
@@ -47,32 +67,37 @@ Hanna nem tud egyedül felkészülni a vizsgára. A feladat lényegét nehezen t
 ### Vizsgamodell (a kód alapján)
 
 1. **Előre** feltöltesz egy **általános keretrendszert** (widgetek + minták).
-2. **Vizsgán** csak ezt használod → a konkrét feladathoz a `Window`-t / adatmodellt igazítod.
+2. **Vizsgán** csak ezt használod → a konkrét feladathoz a `config.hpp`-t és esetleg a model/view szabályokat igazítod.
 3. A hallgató **nem SDL-t ír**, hanem widgeteket rak össze a tanár API-ján.
 
 ---
 
-## A jelenlegi framework — F_sync minta
+## A jelenlegi framework — egyesített MVC
 
-A `Window` osztály szándékosan **feladat-független**:
+A `Model` osztály **feladat-független**, egy adatforrás: `std::vector<Item> _items`.
 
-- **Egyetlen adatforrás:** `std::vector<Item> _items`
-- **Listák csak megjelenítők** → minden módosítás után `refresh_lists()`
-- Két lista: bal = raktár (`picked == false`), jobb = kiválasztott (`picked == true`)
-- CRUD: hozzáad, módosít, töröl, fel/le mozgat, bal ↔ jobb áthelyezés
-- Opcionális: `apply` / `release` — hozzárendelős feladatokhoz (orvos ↔ műtét stb.)
+- **View:** csak widgetek + `refresh_*` (nincs üzleti logika)
+- **Controller:** vékony `on_*` metódusok → model → view.refresh
+- **config.hpp:** mely UI panel aktív (két lista, készlet, gép, kategória, assign)
 
-A kommentek és a `config.hpp` egyértelműen azt mondják: *„ezt a 3–4 helyen kell átírni a konkrét feladathoz”* — nem kell mindent nulláról.
+Támogatott minták egy csomagban:
+
+| Panel (`config.hpp`) | Feladattípus |
+|----------------------|--------------|
+| `UI_TWO_LIST` | F_sync, csapat, bal↔jobb lista |
+| `UI_INVENTORY` | Fagyi/cipő készlet, kiadás, feltöltés |
+| `UI_MACHINE` | REC/gép: dropdown + sorok (név slot/méret) |
+| `UI_CATEGORY` | `tag` mező + szűrés |
+| `UI_ASSIGN` | apply / release hozzárendelés |
 
 ### Testreszabási pontok (vizsgán)
 
 | Hol | Mit |
 |-----|-----|
-| `window.hpp` — `Item` struktúra | Mezők a feladathoz (név, érték, flag, link stb.) |
-| `refresh_lists()` | Lista szöveg formátuma |
-| `add_item()` / `modify_item()` | Validáció, duplikátum ellenőrzés |
-| `move_to_right()` | Feltételek (pl. kapacitás, kompatibilitás) |
-| `config.hpp` | `VALUE_DIMENSION`, duplikált név, áthelyezés mód |
+| `config.hpp` | UI panelek, `VALUE_DIMENSION`, `VAL_STOCK`/`VAL_SECOND` jelentés, demo seed → `None` |
+| `model.hpp` — `Item` | Mezők jelentése (`vals[]`, `tag`, `assigned`, `picked`) |
+| `view.cpp` — `row_text()` | Lista/dropdown szöveg formátuma |
+| `model.cpp` | Validáció, `move_to_right` feltételek, `time_overlap()` |
 
 ---
 
@@ -116,23 +141,13 @@ A **`graph64_2024/include/` + `src/`** mappa viszont **pont azt csinálja, amit 
 
 ## Technikai megállapítások (jelenlegi kód)
 
-### Fordítási hiba
+### Fordítás
 
-`src/window.cpp` implementálja az `apply()` és `release()` metódusokat, de **`include/window.hpp`-ban nincsenek deklarálva**:
+A régi `window.hpp` / `window.cpp` **eltávolítva** — helyette `model/view/controller/app`. Mac-en tesztelve: `bin/AppDemo` (SDL2).
 
-```
-error: out-of-line definition of 'apply' does not match any declaration in 'Window'
-error: out-of-line definition of 'release' does not match any declaration in 'Window'
-```
+### Egyetlen `Item` definíció
 
-→ A projekt **jelenleg nem fordul le** ezen a ponton. Javítás: deklaráció hozzáadása a headerhez, vagy a `.cpp`-ből törlés (ha nem kell).
-
-### Dupla `Item` definíció
-
-- `model.hpp`: `name`, `vals[]`, `tag`, `picked`
-- `window.hpp`: `name`, `value`, `picked`
-
-A `window.hpp` verzió az, amit ténylegesen használnak; a `model.hpp` alternatív sablon.
+`model.hpp`: `name`, `vals[]`, `tag`, `assigned`, `picked` — minden réteg ezt használja.
 
 ### API inkompatibilitás
 
@@ -402,7 +417,7 @@ Hanna **nem egy feladatot** visz be, hanem egy **kis belső keretrendszert**. Vi
 | **`record.hpp`** *(opc.)* | Polimorf elemek (fagyi sablon, összetett C) |
 | **`storage.hpp`** *(opc.)* | Mentés/betöltés (D feladat) |
 
-A jelenlegi `window.hpp` / `window.cpp` **prototípus** — hosszú távon Model / View / Controller / App névre bontandó.
+A `window.hpp` / `window.cpp` helyett most **`model/view/controller/app`** van — ez a bevihető csomag.
 
 ### `src/` — implementációk
 

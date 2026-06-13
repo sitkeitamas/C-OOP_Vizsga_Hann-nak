@@ -18,36 +18,6 @@
 					<Add directory="include" />
 				</Compiler>
 			</Target>
-			<Target title="RecGepDemo">
-				<Option output="bin/RecGepDemo/RecGepDemo" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/RecGepDemo/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-g" />
-					<Add directory="include" />
-				</Compiler>
-			</Target>
-			<Target title="IceCreamDemo">
-				<Option output="bin/IceCreamDemo/IceCreamDemo" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/IceCreamDemo/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-g" />
-					<Add directory="include" />
-				</Compiler>
-			</Target>
-			<Target title="SyncDemo">
-				<Option output="bin/SyncDemo/SyncDemo" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/SyncDemo/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-g" />
-					<Add directory="include" />
-				</Compiler>
-			</Target>
 			<Target title="Release">
 				<Option output="GraphicsProject" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
@@ -80,71 +50,38 @@
 		</Linker>
 		<Unit filename="graphicslib/graphics.cpp" />
 		<Unit filename="graphicslib/graphics.hpp" />
+		<Unit filename="include/app.hpp" />
 		<Unit filename="include/application.hpp" />
 		<Unit filename="include/button.hpp" />
 		<Unit filename="include/checkbox.hpp" />
 		<Unit filename="include/config.hpp" />
+		<Unit filename="include/controller.hpp" />
 		<Unit filename="include/dropdown.hpp" />
-		<Unit filename="include/icecream_app.hpp" />
-		<Unit filename="include/icecream_controller.hpp" />
-		<Unit filename="include/icecream_model.hpp" />
-		<Unit filename="include/icecream_view.hpp" />
 		<Unit filename="include/list.hpp" />
 		<Unit filename="include/model.hpp" />
-		<Unit filename="include/rec_gep_app.hpp" />
-		<Unit filename="include/rec_gep_controller.hpp" />
-		<Unit filename="include/rec_gep_model.hpp" />
-		<Unit filename="include/rec_gep_view.hpp" />
 		<Unit filename="include/record.hpp" />
 		<Unit filename="include/setvalue.hpp" />
 		<Unit filename="include/statictext.hpp" />
-		<Unit filename="include/sync_app.hpp" />
-		<Unit filename="include/sync_controller.hpp" />
-		<Unit filename="include/sync_model.hpp" />
-		<Unit filename="include/sync_view.hpp" />
 		<Unit filename="include/text.hpp" />
 		<Unit filename="include/util.hpp" />
+		<Unit filename="include/view.hpp" />
 		<Unit filename="include/widgets.hpp" />
-		<Unit filename="include/window.hpp" />
+		<Unit filename="src/app.cpp" />
 		<Unit filename="src/application.cpp" />
 		<Unit filename="src/button.cpp" />
 		<Unit filename="src/checkbox.cpp" />
+		<Unit filename="src/controller.cpp" />
 		<Unit filename="src/dropdown.cpp" />
-		<Unit filename="src/icecream_app.cpp" />
-		<Unit filename="src/icecream_controller.cpp" />
-		<Unit filename="src/icecream_model.cpp" />
-		<Unit filename="src/icecream_view.cpp" />
 		<Unit filename="src/list.cpp" />
-		<Unit filename="src/main.cpp">
-			<Option target="Debug" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="src/main_icecream.cpp">
-			<Option target="IceCreamDemo" />
-		</Unit>
-		<Unit filename="src/main_list.cpp">
-			<Option target="RecGepDemo" />
-		</Unit>
-		<Unit filename="src/main_sync.cpp">
-			<Option target="SyncDemo" />
-		</Unit>
-		<Unit filename="src/rec_gep_app.cpp" />
-		<Unit filename="src/rec_gep_controller.cpp" />
-		<Unit filename="src/rec_gep_model.cpp" />
-		<Unit filename="src/rec_gep_view.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/model.cpp" />
 		<Unit filename="src/record.cpp" />
 		<Unit filename="src/setvalue.cpp" />
 		<Unit filename="src/statictext.cpp" />
-		<Unit filename="src/sync_app.cpp" />
-		<Unit filename="src/sync_controller.cpp" />
-		<Unit filename="src/sync_model.cpp" />
-		<Unit filename="src/sync_view.cpp" />
 		<Unit filename="src/text.cpp" />
+		<Unit filename="src/view.cpp" />
 		<Unit filename="src/widgets.cpp" />
-		<Unit filename="src/window.cpp">
-			<Option compile="0" />
-		</Unit>
-		<Unit filename="README-MVC.md" />
+		<Unit filename="README-FRAMEWORK.md" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
