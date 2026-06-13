@@ -84,9 +84,8 @@ public:
     void move_to_right();
     void move_to_left();
 
-    // Hozzárendelős feladathoz (apply/release minta):
-    // void apply();    // bal + jobb kijelölés összekötése egy mezőn keresztül
-    // void release();  // kijelölt elem hozzárendelésének törlése
+    void apply();
+    void release();
 };
 
 #endif

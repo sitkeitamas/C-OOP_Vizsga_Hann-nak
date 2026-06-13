@@ -1,8 +1,10 @@
-#include "window.hpp"
+// Alapértelmezett belépési pont: REC/gép listakezelés.
+// Más demó: main_icecream.cpp (fagyi), main_sync.cpp (F_sync váz).
+#include "rec_gep_app.hpp"
 
 int main()
 {
-    Window window(800, 600);
-    window.event_loop();
+    RecGepApp app(900, 680);
+    app.event_loop();
     return 0;
 }
