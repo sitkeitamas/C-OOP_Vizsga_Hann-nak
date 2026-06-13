@@ -1,0 +1,9 @@
+Gép, rac kezelés
+
+
+- 2 lista áll rendelkezésre: rec és gép
+- lehessen új elemet felvenni a rec listába: név + méret 
+- rec listából kiválasztott elem behelyezése a gép listába 
+- gép listában elem megjelenése: méretnek megfelelő mennyiségű sort foglaljon el a megjelenítő listában a következő képpen: pl.: nev1 1/4, nev2 2/4 …
+- berakásnál lehessen darabszámot is megadni -> gép listában az x sornyi elem a darabszámnak megfelelő sokszor jeneljen meg
+- gép listából elem kivétel: egy sor kiválasztásával -> az adott elem összes sora tűnjön el a listából (ha darabszám > 1 volt akkor a gép listában maradjon a többi azonos elem)

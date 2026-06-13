@@ -1,0 +1,2946 @@
+# depslib dependency file v1.0
+1708073733 source:c:\users\flugi\cb\graph64_2024\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1707974136 c:\users\flugi\cb\graph64_2024\graphicslib\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\begin_code.h
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\close_code.h
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547325890 c:\users\flugi\cb\graph64_2024\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1677889778 c:\users\flugi\cb\graph64_2024\graphicslib\char2.h
+
+1677889778 c:\users\flugi\cb\graph64_2024\graphicslib\keytbl.h
+
+1678011785 source:c:\users\flugi\cb\graph64_2024\main.cpp
+	"graphics.hpp"
+
+1677889778 c:\users\flugi\cb\graph64_2024\include\graphics.hpp
+	<string>
+	<vector>
+
+1707974136 source:c:\users\flugi\cb\graph64_2024\graphicslib\main.cpp
+	"graphics.hpp"
+	<iostream>
+	<sstream>
+	<cstdlib>
+	<vector>
+	<cmath>
+	<thread>
+
+1772553477 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<iostream>
+
+1772553405 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\checkbox.hpp
+	"widgets.hpp"
+
+1772552437 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\widgets.hpp
+	"application.hpp"
+	"graphics.hpp"
+
+1772553613 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\application.hpp
+	<vector>
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\graphics.hpp
+	<string>
+	<vector>
+
+1775417343 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\graphicslib\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\begin_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\close_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\graphicslib\char2.h
+
+1775417343 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\graphicslib\keytbl.h
+
+1772552837 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\statictext.cpp
+	"statictext.hpp"
+	"graphics.hpp"
+
+1772552818 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\statictext.hpp
+	"widgets.hpp"
+	<string>
+
+1772552799 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\textedit.cpp
+	"textedit.hpp"
+	"graphics.hpp"
+
+1772552623 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\textedit.hpp
+	"widgets.hpp"
+	<string>
+
+1772552598 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1775501410 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1775501429 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\listbox.cpp
+	"listbox.hpp"
+	"widgets.hpp"
+	<vector>
+
+1772553077 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\listbox.hpp
+	"widgets.hpp"
+	<vector>
+
+1775501481 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\spinbox.cpp
+	"spinbox.hpp"
+	"graphics.hpp"
+
+1772552860 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\spinbox.hpp
+	"widgets.hpp"
+
+1775501494 source:c:\users\dms\documents\bevprog2\proba 1\graph64_2024\main.cpp
+	"window.hpp"
+
+1772552388 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\window.hpp
+	"graphics.hpp"
+	"application.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	"checkbox.hpp"
+	"spinbox.hpp"
+	"listbox.hpp"
+	"statictext.hpp"
+	"textedit.hpp"
+
+1772553515 c:\users\dms\documents\bevprog2\proba 1\graph64_2024\include\button.hpp
+	<functional>
+	"widgets.hpp"
+
+1775417343 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\graphicslib\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\begin_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\close_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\graphicslib\char2.h
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\graphicslib\keytbl.h
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1778584795 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1775417343 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\graphics.hpp
+	<string>
+	<vector>
+
+1778587317 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\widgets.hpp
+	"graphics.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+
+1777400047 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\button.hpp
+	<functional>
+	<string>
+	"widgets.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<iostream>
+
+1778576006 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\checkbox.hpp
+	"widgets.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\listbox.cpp
+	"listbox.hpp"
+	"graphics.hpp"
+
+1777400047 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\listbox.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\main.cpp
+	"window.hpp"
+
+1778746450 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\window.hpp
+	"application.hpp"
+	"button.hpp"
+	"checkbox.hpp"
+	"setvalue.hpp"
+	"list.hpp"
+	"statictext.hpp"
+	"text.hpp"
+	"record.hpp"
+	"dropdown.hpp"
+
+1777400047 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\spinbox.hpp
+	"widgets.hpp"
+
+1778578128 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\statictext.hpp
+	"widgets.hpp"
+	<string>
+
+1777400047 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\textedit.hpp
+	"widgets.hpp"
+	<string>
+
+1778747242 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\record.hpp
+	<memory>
+	<string>
+	<vector>
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\spinbox.cpp
+	"spinbox.hpp"
+	"graphics.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\statictext.cpp
+	"statictext.hpp"
+	"graphics.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\textedit.cpp
+	"textedit.hpp"
+	"graphics.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\widgets.cpp
+	"widgets.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\window.cpp
+	"window.hpp"
+	<memory>
+
+1778587369 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1778587582 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+
+1778587063 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\listbox.cpp
+	"listbox.hpp"
+	"graphics.hpp"
+
+1778587805 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\main.cpp
+	"window.hpp"
+
+1778747242 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\record.cpp
+	"record.hpp"
+	<sstream>
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\spinbox.cpp
+	"spinbox.hpp"
+	"graphics.hpp"
+
+1778587609 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\statictext.cpp
+	"statictext.hpp"
+	"graphics.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\textedit.cpp
+	"textedit.hpp"
+	"graphics.hpp"
+
+1778587769 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\widgets.cpp
+	"widgets.hpp"
+	"application.hpp"
+
+1777400047 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\window.cpp
+	"window.hpp"
+	<memory>
+
+1778577884 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\setvalue.hpp
+	"widgets.hpp"
+
+1778577321 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\list.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<map>
+
+1778579723 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\text.hpp
+	"widgets.hpp"
+	<string>
+
+1778579788 c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\include\dropdown.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1778579936 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\dropdown.cpp
+	"dropdown.hpp"
+	"graphics.hpp"
+	<algorithm>
+
+1778577886 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\setvalue.cpp
+	"setvalue.hpp"
+	"graphics.hpp"
+
+1778587700 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\text.cpp
+	"text.hpp"
+	"graphics.hpp"
+
+1778587778 source:c:\users\dms\documents\bevprog2\refactored_inventory_app\graph64_2024\src\list.cpp
+	"list.hpp"
+	"graphics.hpp"
+	<algorithm>
+
+1775417343 source:c:\users\dms\documents\bevprog2\current\graph64_2024\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\graphicslib\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\begin_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\close_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\current\graph64_2024\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\graphicslib\char2.h
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\graphicslib\keytbl.h
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\record.cpp
+	"record.hpp"
+	<sstream>
+
+1778748646 c:\users\dms\documents\bevprog2\current\graph64_2024\include\record.hpp
+	<memory>
+	<string>
+	<vector>
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1778748645 c:\users\dms\documents\bevprog2\current\graph64_2024\include\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1778749237 c:\users\dms\documents\bevprog2\current\graph64_2024\include\widgets.hpp
+	"graphics.hpp"
+
+1775417343 c:\users\dms\documents\bevprog2\current\graph64_2024\include\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+
+1778748645 c:\users\dms\documents\bevprog2\current\graph64_2024\include\button.hpp
+	<functional>
+	<string>
+	"widgets.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+
+1778748646 c:\users\dms\documents\bevprog2\current\graph64_2024\include\checkbox.hpp
+	"widgets.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\dropdown.cpp
+	"dropdown.hpp"
+	"graphics.hpp"
+	<algorithm>
+
+1778748646 c:\users\dms\documents\bevprog2\current\graph64_2024\include\dropdown.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1778766954 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\list.cpp
+	"list.hpp"
+	"graphics.hpp"
+	<algorithm>
+
+1778767872 c:\users\dms\documents\bevprog2\current\graph64_2024\include\list.hpp
+	"widgets.hpp"
+	<map>
+	<string>
+	<vector>
+	<functional>
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\main.cpp
+	"window.hpp"
+
+1778762057 c:\users\dms\documents\bevprog2\current\graph64_2024\include\window.hpp
+	"application.hpp"
+	"button.hpp"
+	"checkbox.hpp"
+	"setvalue.hpp"
+	"list.hpp"
+	"statictext.hpp"
+	"text.hpp"
+	"record.hpp"
+	"dropdown.hpp"
+
+1778748646 c:\users\dms\documents\bevprog2\current\graph64_2024\include\setvalue.hpp
+	"widgets.hpp"
+
+1778748646 c:\users\dms\documents\bevprog2\current\graph64_2024\include\statictext.hpp
+	"widgets.hpp"
+	<string>
+
+1778748646 c:\users\dms\documents\bevprog2\current\graph64_2024\include\text.hpp
+	"widgets.hpp"
+	<string>
+
+1778762433 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\setvalue.cpp
+	"setvalue.hpp"
+	"graphics.hpp"
+
+1778749309 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\statictext.cpp
+	"statictext.hpp"
+	"graphics.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\text.cpp
+	"text.hpp"
+	"graphics.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\widgets.cpp
+	"widgets.hpp"
+	"application.hpp"
+
+1778767757 source:c:\users\dms\documents\bevprog2\current\graph64_2024\src\window.cpp
+	"window.hpp"
+
+1775417343 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\graphicslib\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\begin_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\close_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\graphicslib\char2.h
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\graphicslib\keytbl.h
+
+1778748646 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1778748645 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1778749237 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\widgets.hpp
+	"graphics.hpp"
+
+1775417343 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1778748646 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+
+1778748645 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\button.hpp
+	<functional>
+	<string>
+	"widgets.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+
+1778748646 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\checkbox.hpp
+	"widgets.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\dropdown.cpp
+	"dropdown.hpp"
+	"graphics.hpp"
+	<algorithm>
+
+1778748646 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\dropdown.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1778748646 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\main.cpp
+	"window.hpp"
+
+1778831468 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\window.hpp
+	"application.hpp"
+	"button.hpp"
+	"checkbox.hpp"
+	"setvalue.hpp"
+	"list.hpp"
+	"statictext.hpp"
+	"text.hpp"
+	"record.hpp"
+	"dropdown.hpp"
+
+1778748646 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\setvalue.hpp
+	"widgets.hpp"
+
+1778831548 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\list.hpp
+	"config.hpp"
+	"widgets.hpp"
+	<string>
+	<vector>
+	<functional>
+
+1778748646 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\statictext.hpp
+	"widgets.hpp"
+	<string>
+
+1778748646 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\text.hpp
+	"widgets.hpp"
+	<string>
+
+1778748646 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\record.hpp
+	<memory>
+	<string>
+	<vector>
+
+1778748646 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\record.cpp
+	"record.hpp"
+	<sstream>
+
+1778762433 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\setvalue.cpp
+	"setvalue.hpp"
+	"graphics.hpp"
+
+1778749309 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\statictext.cpp
+	"statictext.hpp"
+	"graphics.hpp"
+
+1778829358 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\text.cpp
+	"text.hpp"
+	"graphics.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\widgets.cpp
+	"widgets.hpp"
+	"application.hpp"
+
+1778831505 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\list.cpp
+	"list.hpp"
+	"graphics.hpp"
+	<algorithm>
+
+1778831554 source:c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\src\window.cpp
+	"window.hpp"
+
+1778832460 c:\users\dms\documents\bevprog2\gen_int_vek\graph64_2024\include\config.hpp
+
+1775417343 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\graphicslib\graphics.cpp
+	"graphics.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<algorithm>
+	<map>
+	<iostream>
+	"char2.h"
+	"keytbl.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\graphicslib\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\begin_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\close_code.h
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417344 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\graphicslib\char2.h
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\graphicslib\keytbl.h
+
+1778748646 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1778748645 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1778749237 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\widgets.hpp
+	"graphics.hpp"
+
+1775417343 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\graphics.hpp
+	<string>
+	<vector>
+	<map>
+
+1778748646 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+
+1778748645 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\button.hpp
+	<functional>
+	<string>
+	"widgets.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+
+1778748646 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\checkbox.hpp
+	"widgets.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\dropdown.cpp
+	"dropdown.hpp"
+	"graphics.hpp"
+	<algorithm>
+
+1778748646 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\dropdown.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1778748646 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\main.cpp
+	"window.hpp"
+
+1779213162 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\window.hpp
+	"application.hpp"
+	"button.hpp"
+	"checkbox.hpp"
+	"setvalue.hpp"
+	"list.hpp"
+	"statictext.hpp"
+	"text.hpp"
+	"record.hpp"
+	"dropdown.hpp"
+
+1778748646 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\setvalue.hpp
+	"widgets.hpp"
+
+1778831548 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\list.hpp
+	"config.hpp"
+	"widgets.hpp"
+	<string>
+	<vector>
+	<functional>
+
+1778832460 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\config.hpp
+
+1778748646 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\statictext.hpp
+	"widgets.hpp"
+	<string>
+
+1778748646 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\text.hpp
+	"widgets.hpp"
+	<string>
+
+1779213116 c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\include\record.hpp
+	<string>
+	<vector>
+
+1778762433 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\setvalue.cpp
+	"setvalue.hpp"
+	"graphics.hpp"
+
+1778749309 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\statictext.cpp
+	"statictext.hpp"
+	"graphics.hpp"
+
+1778829358 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\text.cpp
+	"text.hpp"
+	"graphics.hpp"
+
+1778748646 source:c:\users\dms\documents\bevprog2\szinkezelo\graph64_2024\src\widgets.cpp
+	"widgets.hpp"
+	"application.hpp"
+

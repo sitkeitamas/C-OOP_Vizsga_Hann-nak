@@ -1,0 +1,6 @@
+Huszár bábú lépései
+
+- lehessen új lépést felvenni: X, Y -> listában megjelenés: pl.: a2, d6
+- lépések egy listában jelenjenek meg, majd kiválasztás és LÉP gomb megnyomása után legyen kiíratva az adott lépés, mint aktuális pozíció
+- aktuális pozíció szűrőként viselkedik a listán: csak azok a lépések jelenjenek meg a listában, amik eleget tesznek a huszár lépési szabályainak
+- új lépés hozzáadásával a listához, szűnjön meg a szűrés és újra minden lépés legyen látható

@@ -1,0 +1,34 @@
+Bevezetés a Programozásba 2. Géptermi vizsga, 2018. 06. 28.
+
+A) Alapfeladat  - 10p
+
+Utánozd a kiadott programot. A kulcsmomentumok a következõk:
+ - lehessen a skillpontokat növelni és csökkenteni (szabad gombokat is használni)
+ - kezelje helyesen a szabad skill pontokat, ha elfogynak, ne lehessen tovább növelni a pontokat
+ - frissítse a választható klánok listáját az aktuális adatok alapján
+
+A karakter nevére az alapfeladat után lesz szükség, az alapfeladatban nem kötelezõ feltüntetni sem. Nem kötelezõ az érvényességhez a kiválasztott klán megtartása skillpont változás esetén, elfogadható az a megoldás is, amelyiknél a frissen megjelenõ lehetséges klán megváltoztatja a kiválasztówidget aktuális elemét, ez csak a maxponthoz kell. 
+
+A példaként kiadott program kinézetét/elrendezését nem kell tartani, például a kiválasztówidget ciklikus átfordulása az adott widget dizájn része, nem a feladaté, természetesen tetszõleges kialakítású kiválasztówidget alkalmas, és természetesen a klánok nevei és követelményei sem kötöttek, csak példaként szerepelnek.
+
+Érvényes alapfeladat nélkül a ZH érvénytelen.
+
+A B-C-D feladatok tetszõleges sorrendben bemutathatóak, a már bemutatott funkcionalitást nem ronthatják el.
+
+B) Csapatszerkesztés  - 20p
+
+Az elkészült karaktereket lehessen hozzáadni egy csapatlistához, amelyik mutatja a csapat tagjainak neveit és klánjait. A listából lehessen törölni, és szerkesztésre az adatokat visszatölteni a karakterszerkesztõbe.
+
+C) Klánszerkesztõ  - 20p
+
+Lehessen custom klánokat csinálni. Egy klánnak van neve és vannak minimumkövetelményei. Az így létrehozott klánok jelenjenek meg pont ugyanúgy a programban, mint a már létezõk.
+
+D) Fájlkezelés  - 10p
+
+Az A) B) és C) feladatrészekben létrehozott funkcionalitással kezelt összes adat lehessen egyben elmenthetõ és visszatölthetõ. A részpontszámok 3p-3p-4p az A) B) és C) feladatrészek lefedettsége szerint.
+
+
+
+Pontozás
+
+A pontozásnál alapvetõen a funkciót nézzük, ezt kis mértékben befolyásolja, hogy a kódban a tanult nyelvi elemek milyen minõségben szerepelnek.

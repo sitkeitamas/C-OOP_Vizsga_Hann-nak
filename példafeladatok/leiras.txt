@@ -1,0 +1,36 @@
+Géptermi ZH feladat BevProg2 2017
+
+Cipőbolt készletét nyilvántartó programot kell készíteni.
+
+Alapfeladat
+
+Utánozd a kiadott példaprogramot!
+
+Kulcsmomentumok, amiknek mind teljesülnie kell az alapfeladatnál:
+
+ - a cipők tetszőleges sorrendben bekerülnek a listába
+ - egy adott nevű cipő pontosan egyszer szerepel a listában
+ - a létező méretek az adott cipőből a neve mellé jönnek felsorolva
+ - törlésnél az összes méret törlődik
+
+B feladat
+
+Szerkesztés üzemmód: egy tételre kattintva (vagy kijelölve, és egy "Szerkesztés gombot megnyomva) egy másik kiválasztó widgetben megjelennek az aktuálisan létező méretek, és ezen keresztül méretenként is lehet törölni
+
+C feladat
+
+Raktárkészlet nyilvántartás: minden fajta cipő minden méretének lehet készleten tárolt száma. Adat felvitelkor a méret mellett egy darabszám számbeállítóval lehessen megadni a mennyiséget. Egy gombbal lehessen jelezni, ha elkelt egy darab egy adott cipő egy adott méretéből, és ha nullához ér a számláló, akkor az adott méret törlődjön. Ha a méretek elfogytak, a név is törlődjön.
+
+Ha van B feladat, az "Elkelt" gomb használata összekötendő a szerkesztéshez használt méretválasztóval, egyébként csinálni kell hozzá méretválasztást.
+
+D feladat
+
+Lehessen kiválasztó widgettel egy adott cipőméretre szűrni a tételeket, hogy van-e ilyen méret. A kiválasztó widget elemei az aktuális készletben szereplő minden méret legyen (csak azok, mind csak egyszer), sorrendben, plusz a "Mind" állás, amikor nincs szűrés.
+
+Pontozás
+
+A 10
+B 10
+C 20
+D 20
+

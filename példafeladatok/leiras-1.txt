@@ -1,0 +1,41 @@
+Géptermi ZH feladat BevProg2 2017
+
+Fagyi nyilvántartó programot kell írni. 
+
+Alapfeladat
+
+Utánozd a kiadott példaprogramot!
+
+Kulcsmomentumok, amiknek mind teljesülnie kell az alapfeladatnál:
+
+ - a nyilvántartás funkció működik: annyival lesz kevesebb a készlet, amennyit beállítunk a számbeállító widgeten a kiadás gomb nyomása előtt
+ - ha túl nagy érték van a számbeállító widgetben, nem történik semmi (akkor is, ha nincs kiválasztva elem azoknál a widgeteknél, ahol lehet semmit sem kiválasztani)
+ - a kiválasztó menüben azok és csak azok a fagyik szerepelnek, amik nem fogytak ki
+ - Kiad gomb nyomása után a kiválasztott elem maradjon ugyanúgy kiválasztva, amíg ki nem fogy
+ - kifogyáskor a választási lehetőség kimarad, nem marad a helyén üres hely, hanem kevesebb választási lehetőség lesz.
+ - ha minden elfogy, nem marad elem a kiválasztó widgetben. A program ilyenkor sem esik össze.
+ - lehet feltölteni a készletet gombnyomással
+ - a készlet látható módon fel van sorolva, pl. statictext alakú widgetben
+
+B feladat
+
+Lehessen újfajta fagyit hozzáadni a választékhoz, és törölni belőle. A mindent feltöltő gomb mellett legyen olyan gomb is, ami csak a kiválasztott fagyit tölti fel. 
+
+C feladat
+
+Hozz létre fagylalkelyhekhez sablonokat (pl. "banánhajó": 3 banán+2 csoki), amiket a felhasználó tud szerkeszteni. A megvalósítás szabadon választható, a lényeges szolgáltatás, hogy meg lehessen adni, hogy melyik fagyiból mennyi kell bele, és mi a sablon neve, és mindent widgeteken keresztül lehessen megadni. Sablon összetevőjeként csak eredeti fagyi jöhet szóba, sablonok sablonját nem kell megoldani.
+
+A választékban az egyes fagyik mellett jelenjenek meg azok a sablonok is, amikből legalább egy kiadható, és kezelje a program helyesen a készletinformációkat. A B feladat megoldásánál létrehozott egyetlen fajta fagyit feltöltő gomb ne csináljon semmit, ha sablon van kiválasztva.
+
+D feladat
+
+Statisztikai és vásárlóelemzői célból egészítsd ki a programot úgy, hogy legyen rajta "új nap" gomb, és lehessen látni, hogy melyik fajta fagyiból (és sablonból, ha van C) mennyit adtunk el összesen és hogy csak az előző nap alkalmaval. A program mutassa százalékosan az arányokat, hogy az összes eladott fagyi milyen arányban milyen fagyikat tartalmazott. A statisztika reszetelésére is legyen gomb, amivel minden eladott fagyiról megfeledkezik a program, és nulláról kezdi újra a számolást.
+
+A vizualizáció szabadon választható, kivéve a kiválasztó widget szöveges tartalmát, ami továbbra is csak a fagyi fajta neve. Kördiagram pluszpontos.
+
+pontszámok:
+A - 10p
+B - 10p
+C - 25p
+D - 15p
+
